@@ -1,0 +1,24 @@
+{
+  "name": "slush-cooking-react",
+  "version": "0.0.0",
+  "description": "A cooking generator.",
+  "keywords": [
+    "slush-cooking-react",
+    "cooking",
+    "slushgenerator"
+  ],
+  "scripts": {
+    "dev": "cooking watch",
+    "dist": "cooking build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cookingjs/slush-cooking-react.git"
+  },
+  "homepage": "https://github.com/cookingjs/slush-cooking-react#readme",
+  "bugs": {
+    "url": "https://github.com/cookingjs/slush-cooking-react/issues"
+  },
+  "author": "qingwei-li<cinwell.li@gmail.com>",
+  "license": "MIT"
+}

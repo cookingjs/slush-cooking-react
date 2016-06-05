@@ -1,0 +1,9 @@
+{
+  "plugins": ["react"],
+  "extends": ["elemefe"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+}
