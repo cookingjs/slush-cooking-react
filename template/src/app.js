@@ -1,7 +1,7 @@
-import React, { Component } from 'react'; // eslint-disable-line
+import React, { Component } from 'react';
 import { render } from 'react-dom';
 
-class Example extends Component { // eslint-disable-line
+class Example extends Component {
   render() {
     return <h1>Hello World!</h1>;
   }
