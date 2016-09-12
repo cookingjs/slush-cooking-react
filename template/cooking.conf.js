@@ -24,19 +24,13 @@ cooking.set({
   sourceMap: true,
   extractCSS: true,
   urlLoaderLimit: 10000,
-
-  extends: ['react', 'lint', 'postcss']
-});
-
-cooking.add('postcss', function () {
-  return [
-    // require postcss plugin
-    // like require('postcss-cssnext')
-  ]
-});
-
-cooking.add('resolve.alias', {
-  'src': path.join(__dirname, 'src')
+  postcss: [
+    // require('postcss-cssnext')
+  ],
+  alias: {
+    'src': path.join(__dirname, 'src')
+  },
+  extends: ['react', 'lint']
 });
 
 module.exports = cooking.resolve();
