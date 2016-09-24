@@ -3,8 +3,7 @@ var path = require('path');
 
 cooking.set({
   entry: {
-    app: './src/app.js',
-    vendor: ['react', 'react-dom']
+    app: './src/app.js'
   },
   dist: './dist',
   template: 'src/index.tpl',
@@ -18,7 +17,7 @@ cooking.set({
   // production
   clean: true,
   hash: true,
-  chunk: 'vendor',
+  chunk: true,
   publicPath: '/dist/',
   assetsPath: 'static',
   sourceMap: true,
