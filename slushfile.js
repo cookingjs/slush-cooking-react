@@ -29,7 +29,7 @@ gulp.task('default', function (done) {
     {
       type: 'input',
       name: 'github',
-      message: 'git repository',
+      message: 'github',
       default: cookingConfig.github
     },
     {

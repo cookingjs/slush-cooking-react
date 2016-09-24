@@ -7,8 +7,8 @@
     ""
   ],
   "scripts": {
-    "dev": "cooking watch",
-    "dist": "cooking build"
+    "dev": "cooking watch -p",
+    "dist": "cooking build -p"
   },<% if (github) { %>
   "repository": {
     "type": "git",

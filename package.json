@@ -7,10 +7,6 @@
     "cooking",
     "slushgenerator"
   ],
-  "scripts": {
-    "dev": "cooking watch",
-    "dist": "cooking build"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cookingjs/slush-cooking-react.git"
